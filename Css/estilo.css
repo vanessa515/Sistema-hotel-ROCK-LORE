@@ -1,0 +1,97 @@
+
+.card {
+    width: 420px;
+    height: 440px;
+    text-align: center;
+    background: #F1EBE5;
+    margin-left: -1000px;
+    margin-top: 110px;
+   }
+   
+   /*Inputs*/
+   .field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em 1em;
+    background-color: #F1EBE5 ;
+    width: 290px;
+    height: 40px;
+    border: 1px #423F32 solid;
+   }
+   
+   .input-icon {
+    height: 1em;
+    width: 1em;
+    fill: #ffeba7;
+   }
+   
+   .input-field {
+    background: none;
+    border:#5e6681;
+    outline:#112979;
+    width: 100%;
+    color: #d3d3d3;
+    gap: 10px;
+    font-family: Cormorant Garamod;
+    text-align: center;
+    font-size: large;
+    text-emphasis-color: #423F32;
+   }
+   
+  
+   
+   /*Buttons*/
+   .btn {
+    margin: 1rem;
+    border: 1px #423F32 solid;
+    font-family: Cormorant Garamod;
+    text-align: center;
+    font-size: large;
+    text-transform: uppercase;
+    padding: 0.6em 1.2em;
+    background-color: #F1EBE5 ;
+    color: #423F32;
+    box-shadow: 0 8px 24px 0 rgb(255 235 167 / 20%);
+    transition: all .3s ease-in-out;
+   }
+   
+  
+   /*Hover & focus*/
+   .field input:focus::placeholder {
+    opacity: 0;
+    transition: opacity .3s;
+   }
+   
+   .btn:hover {
+    background-color: #423F32;
+    color: #F1EBE5 ;
+    box-shadow: 0 8px 24px 0 rgb(16 39 112 / 20%);
+   }
+   
+   .btn-link:hover {
+    color: #F1EBE5 ;
+   }
+  body{
+   background-color: #CDCFC0;
+  }
+  .imagenlog{
+   position: absolute;
+   margin-top: -390px;
+   margin-left: 50px;
+   
+  }
+  img{
+   width: 400px;
+   height: 300px;
+   margin-left: 70px;
+  }
+  .imghome{
+  width: 1800px;
+  }
+  .admin{
+    background-image: url("img/imghome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
