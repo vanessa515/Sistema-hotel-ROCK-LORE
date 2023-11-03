@@ -283,7 +283,7 @@
 }
 
 .buttons button.start {
-  background-color: #44d8a4;
+  background-color: #423F32;
   box-shadow: 0px 5px 10px -10px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease;
 }
@@ -325,3 +325,4 @@
 .buttons button:focus {
   outline: 0;
 }
+
