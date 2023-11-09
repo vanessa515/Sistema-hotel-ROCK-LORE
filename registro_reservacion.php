@@ -90,10 +90,3 @@ while ($fila = $resultadohabitacion ->fetch_assoc()) {
 </form>
 </center>
 
-<style>
-    .form_reg{
-        height: 600px;
-        width: 30%;
-        background-color: lightblue;
-    }
-</style>
