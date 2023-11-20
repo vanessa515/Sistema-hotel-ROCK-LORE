@@ -3,46 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home recepcionista</title>
+    <title>Reservaciones</title>
     <link rel="stylesheet" type="text/css" href="Css/estilo.css">
 </head>
 <body background="Img/imgHome.jpg" class="imgHome">
-    <h1 style="font-family: Cormorant Garamod; color: #423F32;">BIENVENIDO USUARIO</h1>
+    <h1 style="font-family: Cormorant Garamod; color: #423F32;">BIENVENIDO USUARIO.</h1>
     <button class="learn-more">
         <span class="circle" aria-hidden="true">
         <span class="icon arrow"></span>
         </span>
         <span class="button-text">Salir</span>
       </button>
-  
+  <center> 
       <form class="form">
         <p class="title">Reservaciones</p>
             <div class="flex">
             <label>
-                <input required="" placeholder="" type="text" class="input">
-                <span>Firstname</span>
+                <input required="" placeholder="" type="search" class="input">
+                <span>Cliente</span><br> 
             </label>
-    
+            <br> 
+        
+    <div class="j" > 
             <label>
-                <input required="" placeholder="" type="text" class="input">
-                <span>Lastname</span>
+                <input required="" placeholder="" type="number" id="th"  class="input" style="margin-left: -175px;">
+                <span style="margin-left: -175px; ">Tipo de habitación</span>
             </label>
         </div>  
-                
         <label>
-            <input required="" placeholder="" type="email" class="input">
-            <span>Email</span>
+            <input required="" placeholder="" type="number" id="num"   class="input">
+            <span style="z-index: 2; margin-left: 120px; margin-top: -35px;">N°</span>
+        </label>
+    </div>
+    <br> 
+    <div class="j"> 
+        <label>
+            <input required="" placeholder="" type="date" id="fh"  class="input" style="margin-left: -175px; margin-top: -10px;">
+            <span  style="z-index: 2; margin-left: -170px; margin-top: -10px;">Fecha</span>
         </label> 
-            
+        <br> 
         <label>
-            <input required="" placeholder="" type="password" class="input">
-            <span>Password</span>
+            <input required="" placeholder="" type="time"  id="fh" class="input" style="margin-left: 10px; margin-top: -30px;">
+            <span style="z-index: 2; margin-left: 20px; margin-top: -30px;">Hora</span>
         </label>
+        <br> 
+    </div>
+    
         <label>
-            <input required="" placeholder="" type="password" class="input">
-            <span>Confirm password</span>
-        </label>
-        <button class="submit">Submit</button>
+            <input required="" placeholder="" type="password" class="input"  style="width: 340px;">
+            <span style="width: 90px;">Tipo de pago</span>
+        </label><br>
+        <input class="btn1" type="submit" value="Registrar reservación" ></input>
     </form>
+</center>
 </body>
 </html>
+<style>
+.btn1{
+    width: 355px;
+    border: solid white 1px ;
+    border-radius: 15px;
+    height: 50px;
+    background-color: white ;
+}
+</style>

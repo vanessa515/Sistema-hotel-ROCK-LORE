@@ -384,22 +384,41 @@
   text-decoration: underline royalblue;
 }
 
-.flex {
-  display: flex;
-  width: 100%;
-  gap: 6px;
+#th{
+  width: 275px;
+  margin-left: -60px;
+  position: absolute;
 }
-
+#num{
+  width: 40px;
+  margin-left: 120px;
+  position: absolute;
+}
+#fh{
+  width: 150px;
+  margin-left: -60px;
+  position: absolute;
+}
+.flex {
+  
+  gap: 9px;
+}
+.j{
+  display: inline-block;
+  position: relative;
+  height: 50px;
+}
 .form label {
   position: relative;
 }
 
 .form label .input {
   width: 100%;
-  padding: 10px 10px 20px 10px;
+  padding: 10px 1px 20px 10px;
   outline: 0;
   border: 1px solid rgba(105, 105, 105, 0.397);
   border-radius: 10px;
+
 }
 
 .form label .input + span {
@@ -411,7 +430,6 @@
   cursor: text;
   transition: 0.3s ease;
 }
-
 .form label .input:placeholder-shown + span {
   top: 15px;
   font-size: 0.9em;
@@ -452,4 +470,10 @@
     transform: scale(1.8);
     opacity: 0;
   }
+}
+.listahab{
+  background-color: #DEE5E5;
+  z-index: 2;
+  width: 500px;
+  height: 400px;
 }
